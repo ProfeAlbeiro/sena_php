@@ -18,7 +18,7 @@
             $port = "3306";
             $database = "database_php";
             $username = "admin_database";
-            $password = getenv('DB_PASSWORD');
+            $password = "Admin12345";
             $options = array(
                 PDO::MYSQL_ATTR_SSL_CA => 'assets/database/DigiCertGlobalRootG2.crt.pem'
             );
